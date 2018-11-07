@@ -6,7 +6,7 @@ Shader "custom/basic/basic shader"
 		_Color("Color Tint", Color) = (1.0, 1.0, 1.0, 1.0)
 	}
 
-		SubShader
+	SubShader
 	{
 		Pass
 		{
