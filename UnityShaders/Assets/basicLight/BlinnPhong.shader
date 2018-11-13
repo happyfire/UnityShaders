@@ -35,7 +35,8 @@
 			v2f vert(a2v v) {
 				v2f o;
 				o.pos = UnityObjectToClipPos(v.vertex);
-				o.worldNormal = mul(v.normal, (float3x3)unity_WorldToObject);
+				//o.worldNormal = mul(v.normal, (float3x3)unity_WorldToObject);
+				o.worldNormal = UnityObjectToWorldNormal(v.normal);
 				o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 				return o;
 			}
@@ -44,9 +45,11 @@
 				fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.rgb;
 
 				fixed3 worldNormal = normalize(i.worldNormal);
-				fixed3 worldLightDir = normalize(_WorldSpaceLightPos0.xyz);
+				//fixed3 worldLightDir = normalize(_WorldSpaceLightPos0.xyz);
+				fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(i.worldPos));
 
-				fixed3 viewDir = normalize(_WorldSpaceCameraPos.xyz - i.worldPos.xyz);
+				//fixed3 viewDir = normalize(_WorldSpaceCameraPos.xyz - i.worldPos.xyz);
+				fixed3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
 				fixed3 halfDir = normalize(worldLightDir + viewDir);
 
 				fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * saturate(dot(worldNormal, worldLightDir));
