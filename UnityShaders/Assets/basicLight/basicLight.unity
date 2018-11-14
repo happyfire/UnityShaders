@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 366938172}
   - component: {fileID: 366938171}
   - component: {fileID: 366938170}
+  - component: {fileID: 366938174}
   m_Layer: 0
   m_Name: Capsule_vertex_light
   m_TagString: Untagged
@@ -204,6 +205,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &366938174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366938169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5cbf723918f994ba2ff92b2eb8e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  speed: 10
 --- !u!1 &433554625
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +231,7 @@ GameObject:
   - component: {fileID: 433554628}
   - component: {fileID: 433554627}
   - component: {fileID: 433554626}
+  - component: {fileID: 433554630}
   m_Layer: 0
   m_Name: Capsule_BlinnPhong
   m_TagString: Untagged
@@ -296,6 +312,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433554630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433554625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5cbf723918f994ba2ff92b2eb8e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  speed: 10
 --- !u!1 &496255877
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +338,7 @@ GameObject:
   - component: {fileID: 496255880}
   - component: {fileID: 496255879}
   - component: {fileID: 496255878}
+  - component: {fileID: 496255882}
   m_Layer: 0
   m_Name: Capsule_pixel_specular
   m_TagString: Untagged
@@ -388,6 +419,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &496255882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496255877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5cbf723918f994ba2ff92b2eb8e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  speed: 10
 --- !u!1 &569904126
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +536,7 @@ GameObject:
   - component: {fileID: 1095060933}
   - component: {fileID: 1095060932}
   - component: {fileID: 1095060931}
+  - component: {fileID: 1095060935}
   m_Layer: 0
   m_Name: Capsule_half_labmert_pixel_light
   m_TagString: Untagged
@@ -571,6 +617,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1095060935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095060930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5cbf723918f994ba2ff92b2eb8e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  speed: 10
 --- !u!1 &1255303417
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +712,7 @@ GameObject:
   - component: {fileID: 1605396653}
   - component: {fileID: 1605396652}
   - component: {fileID: 1605396651}
+  - component: {fileID: 1605396655}
   m_Layer: 0
   m_Name: Capsule_vertex_specular
   m_TagString: Untagged
@@ -732,6 +793,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1605396655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605396650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5cbf723918f994ba2ff92b2eb8e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  speed: 10
 --- !u!1 &1830733514
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +819,7 @@ GameObject:
   - component: {fileID: 1830733517}
   - component: {fileID: 1830733516}
   - component: {fileID: 1830733515}
+  - component: {fileID: 1830733519}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -823,6 +899,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1830733519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830733514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5cbf723918f994ba2ff92b2eb8e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  speed: 10
 --- !u!1 &1945230964
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +925,7 @@ GameObject:
   - component: {fileID: 1945230967}
   - component: {fileID: 1945230966}
   - component: {fileID: 1945230965}
+  - component: {fileID: 1945230969}
   m_Layer: 0
   m_Name: Capsule_pixel_light
   m_TagString: Untagged
@@ -915,3 +1006,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1945230969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945230964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5cbf723918f994ba2ff92b2eb8e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  speed: 10
