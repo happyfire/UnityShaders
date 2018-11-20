@@ -67,6 +67,7 @@
     <None Include="Assets\basicTexture\RampTexture.shader" />
     <None Include="Assets\basicLight\basicShader.shader" />
     <None Include="Assets\basicLight\specularVertexLight.shader" />
+    <None Include="Assets\blend\alphaTest.shader" />
     <None Include="Assets\basicTexture\NormalMapTangentSpace.shader" />
     <None Include="Assets\basicTexture\MaskTexture.shader" />
     <None Include="Assets\basicLight\halfLambertPixelLight.shader" />
@@ -75,6 +76,7 @@
     <None Include="Assets\moreLight\ReceiveShadow.shader" />
     <None Include="Assets\basicLight\specularPixelLight.shader" />
     <None Include="Assets\basicLight\BlinnPhong.shader" />
+    <None Include="Assets\blend\alphaBlend.shader" />
     <None Include="Assets\basicLight\diffusePixelLight.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/dev2018/UnityShaders/UnityShaders/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
