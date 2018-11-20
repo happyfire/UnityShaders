@@ -1,4 +1,4 @@
-﻿Shader "custom/blend/alphaBlend"
+﻿Shader "custom/blend/alphaBlendZWrite"
 {
 	Properties
 	{
@@ -16,11 +16,17 @@
 
 		LOD 100
 
+		// Extra pass that renders to depth buffer only
+		// 必须多用一个pass把z buffer填对了，否则仅仅通过绘制半透明物体时开启zwrite没有用，因为物体的片元不可能按照从近到远绘制
+		Pass{
+			ZWrite On
+			ColorMask 0
+		}
+
 		Pass
 		{
 			Tags{ "LightMode" = "ForwardBase" }
 			ZWrite Off
-
 			Blend SrcAlpha OneMinusSrcAlpha
 
 			CGPROGRAM
