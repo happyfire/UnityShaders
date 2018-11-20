@@ -12,13 +12,10 @@
 
 	SubShader
 	{
-		Tags { 
-			"RenderType" = "Opaque"
-			"LightMode" = "ForwardBase" 
-		}
-
 		Pass
 		{
+			Tags { "LightMode" = "ForwardBase" }
+
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag

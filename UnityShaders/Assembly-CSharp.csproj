@@ -64,9 +64,11 @@
     <Compile Include="Assets\DragAndRotate.cs" />
     <None Include="Assets\basicLight\diffuseVertexLight.shader" />
     <None Include="Assets\basicTexture\NormalMapWorldSpace.shader" />
+    <None Include="Assets\basicTexture\RampTexture.shader" />
     <None Include="Assets\basicLight\basicShader.shader" />
     <None Include="Assets\basicLight\specularVertexLight.shader" />
     <None Include="Assets\basicTexture\NormalMapTangentSpace.shader" />
+    <None Include="Assets\basicTexture\MaskTexture.shader" />
     <None Include="Assets\basicLight\halfLambertPixelLight.shader" />
     <None Include="Assets\moreLight\ForwardRendering.shader" />
     <None Include="Assets\basicTexture\SingleTexture.shader" />
