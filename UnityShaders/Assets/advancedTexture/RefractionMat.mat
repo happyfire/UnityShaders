@@ -73,7 +73,7 @@ Material:
     - _Parallax: 0.02
     - _ReflectAmount: 1
     - _RefractAmount: 1
-    - _RefractRatio: 0.584
+    - _RefractRatio: 0.523
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

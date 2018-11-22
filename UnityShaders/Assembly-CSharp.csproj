@@ -82,6 +82,8 @@
     <None Include="Assets\moreLight\ReceiveShadow.shader" />
     <None Include="Assets\basicLight\specularPixelLight.shader" />
     <None Include="Assets\basicLight\BlinnPhong.shader" />
+    <None Include="Assets\common\BumpedSpecular.shader" />
+    <None Include="Assets\common\BumpedDiffuse.shader" />
     <None Include="Assets\blend\alphaBlend.shader" />
     <None Include="Assets\basicLight\diffusePixelLight.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
