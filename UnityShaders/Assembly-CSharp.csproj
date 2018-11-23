@@ -66,13 +66,14 @@
     <None Include="Assets\basicLight\diffuseVertexLight.shader" />
     <None Include="Assets\blend\alphaBlendBothSided.shader" />
     <None Include="Assets\basicTexture\NormalMapWorldSpace.shader" />
-    <None Include="Assets\advancedTexture\Refraction.shader" />
-    <None Include="Assets\advancedTexture\Fresnel.shader" />
+    <None Include="Assets\advancedTexture\shaders\Refraction.shader" />
+    <None Include="Assets\advancedTexture\shaders\Fresnel.shader" />
     <None Include="Assets\basicTexture\RampTexture.shader" />
+    <None Include="Assets\advancedTexture\shaders\Mirror.shader" />
     <None Include="Assets\basicLight\basicShader.shader" />
     <None Include="Assets\basicLight\specularVertexLight.shader" />
     <None Include="Assets\blend\alphaTest.shader" />
-    <None Include="Assets\advancedTexture\Reflection.shader" />
+    <None Include="Assets\advancedTexture\shaders\Reflection.shader" />
     <None Include="Assets\basicTexture\NormalMapTangentSpace.shader" />
     <None Include="Assets\basicTexture\MaskTexture.shader" />
     <None Include="Assets\basicLight\halfLambertPixelLight.shader" />
