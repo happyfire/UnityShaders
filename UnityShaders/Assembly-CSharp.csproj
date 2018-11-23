@@ -71,6 +71,7 @@
     <None Include="Assets\basicTexture\RampTexture.shader" />
     <None Include="Assets\advancedTexture\shaders\Mirror.shader" />
     <None Include="Assets\basicLight\basicShader.shader" />
+    <None Include="Assets\advancedTexture\shaders\GlassRefraction.shader" />
     <None Include="Assets\basicLight\specularVertexLight.shader" />
     <None Include="Assets\blend\alphaTest.shader" />
     <None Include="Assets\advancedTexture\shaders\Reflection.shader" />
