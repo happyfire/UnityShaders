@@ -5,7 +5,7 @@
         _MainTex ("Main Tex", 2D) = "white" {}
 		_BumpMap("Normal Map", 2D) = "bump" {}
 		_Cubemap("Enviroment Cubemap", Cube) = "_Skybox" {}
-		_Distortion("Distortion", Range(0, 1000)) = 10
+		_Distortion("Distortion", Range(0, 3000)) = 500
 		_RefractAmount("Refract Amount", Range(0.0, 1.0)) = 1.0
     }
     SubShader
@@ -86,7 +86,8 @@
 
 				// comput the offset in tangent space
 				float2 offset = bump.xy * _Distortion * _RefractionTex_TexelSize.xy;
-				i.scrPos.xy = offset * i.scrPos.z + i.scrPos.xy;
+				//i.scrPos.xy = offset * i.scrPos.z + i.scrPos.xy;
+				i.scrPos.xy = offset + i.scrPos.xy;
 				fixed3 refrCol = tex2D(_RefractionTex, i.scrPos.xy / i.scrPos.w).rgb;
 
 				// convert the normal to world space
