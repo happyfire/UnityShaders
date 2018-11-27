@@ -5,7 +5,7 @@
         _MainTex ("Main Tex", 2D) = "white" {}
 		_BumpMap("Normal Map", 2D) = "bump" {}
 		_Cubemap("Enviroment Cubemap", Cube) = "_Skybox" {}
-		_Distortion("Distortion", Range(0, 3000)) = 500
+		_Distortion("Distortion", Range(0, 100)) = 10
 		_RefractAmount("Refract Amount", Range(0.0, 1.0)) = 1.0
     }
     SubShader
@@ -85,9 +85,10 @@
 				fixed3 bump = UnpackNormal(tex2D(_BumpMap, i.uv.zw));
 
 				// comput the offset in tangent space
+				// 实际效果也取决于camera的near和far，特别是near如果很小，效果比较微弱，near比较大，比如10，效果比较明显
 				float2 offset = bump.xy * _Distortion * _RefractionTex_TexelSize.xy;
-				//i.scrPos.xy = offset * i.scrPos.z + i.scrPos.xy;
-				i.scrPos.xy = offset + i.scrPos.xy;
+				i.scrPos.xy = offset * i.scrPos.z + i.scrPos.xy;
+				//i.scrPos.xy = offset + i.scrPos.xy;
 				fixed3 refrCol = tex2D(_RefractionTex, i.scrPos.xy / i.scrPos.w).rgb;
 
 				// convert the normal to world space
