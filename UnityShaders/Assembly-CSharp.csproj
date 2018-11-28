@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DragAndRotate.cs" />
+    <Compile Include="Assets\noise\BurnHelper.cs" />
     <None Include="Assets\blend\alphaTestBothSided.shader" />
     <None Include="Assets\basicLight\diffuseVertexLight.shader" />
     <None Include="Assets\blend\alphaBlendBothSided.shader" />
@@ -84,6 +85,7 @@
     <None Include="Assets\moreLight\ReceiveShadow.shader" />
     <None Include="Assets\basicLight\specularPixelLight.shader" />
     <None Include="Assets\basicLight\BlinnPhong.shader" />
+    <None Include="Assets\noise\Dissolve.shader" />
     <None Include="Assets\common\BumpedSpecular.shader" />
     <None Include="Assets\common\BumpedDiffuse.shader" />
     <None Include="Assets\blend\alphaBlend.shader" />
