@@ -61,10 +61,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\common\Helpers\Rotating.cs" />
+    <Compile Include="Assets\common\Helpers\SetPropertyAttribute.cs" />
+    <Compile Include="Assets\common\Helpers\Translating.cs" />
     <Compile Include="Assets\DragAndRotate.cs" />
     <Compile Include="Assets\noise\BurnHelper.cs" />
     <None Include="Assets\blend\alphaTestBothSided.shader" />
     <None Include="Assets\basicLight\diffuseVertexLight.shader" />
+    <None Include="Assets\noise\WaterWave.shader" />
     <None Include="Assets\blend\alphaBlendBothSided.shader" />
     <None Include="Assets\basicTexture\NormalMapWorldSpace.shader" />
     <None Include="Assets\advancedTexture\shaders\Refraction.shader" />
