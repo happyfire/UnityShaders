@@ -88,6 +88,7 @@
     <None Include="Assets\blend\alphaBlendZWrite.shader" />
     <None Include="Assets\moreLight\ReceiveShadow.shader" />
     <None Include="Assets\basicLight\specularPixelLight.shader" />
+    <None Include="Assets\surfaceShader\BumpedDiffuse.shader" />
     <None Include="Assets\basicLight\BlinnPhong.shader" />
     <None Include="Assets\noise\Dissolve.shader" />
     <None Include="Assets\common\BumpedSpecular.shader" />
