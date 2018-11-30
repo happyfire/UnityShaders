@@ -86,6 +86,7 @@
     <None Include="Assets\moreLight\ForwardRendering.shader" />
     <None Include="Assets\basicTexture\SingleTexture.shader" />
     <None Include="Assets\blend\alphaBlendZWrite.shader" />
+    <None Include="Assets\surfaceShader\NormalExtrusion.shader" />
     <None Include="Assets\moreLight\ReceiveShadow.shader" />
     <None Include="Assets\basicLight\specularPixelLight.shader" />
     <None Include="Assets\surfaceShader\BumpedDiffuse.shader" />
